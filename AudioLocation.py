@@ -73,7 +73,7 @@ if authenticated:
                                             min_value=1, value=10, step=1,
                                             help="Voer het aantal dichtstbijzijnde schatten in dat je in de tabel wilt zien. 10 is de standaard. Maar als je op grote jacht wil, kun je dit getal verhogen.")
             
-            if st.button("Toon dichtstbijzijnde schatten, schipper!"):
+            if st.button("Toon dichtstbijzijnde schatten"):
                 # Calculate distances
                 df_points["distance"] = df_points.apply(lambda row: points.haversine(lat, lon, row["latitude"], row["longitude"]), axis=1)
                 closest_df = df_points.nsmallest(num_locations, "distance").copy()
