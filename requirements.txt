@@ -1,0 +1,6 @@
+streamlit
+folium
+streamlit-folium
+streamlit_js_eval
+pandas
+cryptography
