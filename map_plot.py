@@ -65,8 +65,8 @@ def plot_location(user_lat, user_lon, show_radii, points_df=None):
             
             folium.Marker(
                 [loc_lat, loc_lon],
-                popup=popup_text,
-                #tooltip=location_text,
+                #popup=popup_text,
+                tooltip=popup_text,
                 icon=folium.Icon(color=circle_color)
             ).add_to(m)
     return m

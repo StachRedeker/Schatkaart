@@ -33,18 +33,22 @@ st.markdown(
 
 st.title("Stachs Schatkaart 🏴‍☠️")
 st.markdown("""
-Ahoy, Kapitein Kim! Met je verjaardag in zicht is het tijd om je zeilen te hijsen en op zoek te gaan naar de schatten die de wereld je te bieden heeft.
+Ahoy, Kapitein Kim! 
+
+Met je verjaardag in zicht is het tijd om je zeilen te hijsen en op zoek te gaan naar de schatten die de wereld je te bieden heeft.
 Jij bent de kapiteit van je eigen schip. Niemand anders zal jouw koers bepalen.
 Bereid je voor op een avontuur vol verborgen rijkdommen en gevaarlijke wateren! Of geluidsfragmentjes van mij. Dat kan ook. ☠️🏝️
-Groet, Scheepsman Stach
+
+Groet, 
+Scheepsman Stach
 """)
 
 username, authenticated = auth.authenticate()
 if authenticated:
     show_radii = st.checkbox("Toon radii", value=True, 
                              help="Laat de 	radii zien rond iedere locatie. Die lijken misschien vijandig water, maar als je je in de radius bevindt, kun je de schat opgraven.")
-    hide_inactive = st.checkbox("Verberg inactieve locaties", value=False, 
-                                help="Verberg locaties die momenteel niet actief zijn (buiten de datumperiode).")
+    hide_inactive = st.checkbox("Verberg inactieve schatten", value=False, 
+                                help="Verberg schatten die momenteel niet actief zijn (buiten de datumperiode).")
     
     loc = None
     if st.checkbox("Bepaal mijn locatie", help="Klik hier om jouw positie te bepalen. Hiervoor gebruiken we je browserlocatie. Arr!"):
