@@ -36,7 +36,7 @@ st.markdown("""
 Ahoy, Kapitein Kim! 
 
 Met je verjaardag in zicht is het tijd om je zeilen te hijsen en op zoek te gaan naar de schatten die de wereld je te bieden heeft.
-Jij bent de kapiteit van je eigen schip. Niemand anders zal jouw koers bepalen.
+Jij bent de kapitein van je eigen schip. Niemand anders zal jouw koers bepalen.
 Bereid je voor op een avontuur vol verborgen rijkdommen en gevaarlijke wateren! Of geluidsfragmentjes van mij. Dat kan ook. ☠️🏝️
 
 Groet, 
